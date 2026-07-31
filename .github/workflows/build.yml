@@ -49,7 +49,7 @@ jobs:
         cd k8s-platform/overlays/dev
 
         kustomize edit set image \
-        felfelharr/k8s-demo-api=felfelharr/k8s-demo-api:${{ github.sha }}
+        felfelharr/demo-api=felfelharr/demo-api:${{ github.sha }}
 
     - name: Commit GitOps change
       run: |

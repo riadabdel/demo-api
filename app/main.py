@@ -50,7 +50,7 @@ def home():
 
     return {
         "application": "Kubernetes Demo",
-        "version": "v4",
+        "version": "v7",
         "pod": socket.gethostname(),
         "database": "connected",
         "visits": count

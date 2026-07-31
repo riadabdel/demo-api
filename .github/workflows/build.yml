@@ -36,7 +36,7 @@ jobs:
       uses: actions/checkout@v4
       with:
         repository: riadabdel/k8s-platform
-        ssh-key: ${{ secrets.GITOPS_SSH_KEY }}
+        ssh-key: ${{ secrets.GITOPS_TOKEN }}
         path: k8s-platform
 
 
